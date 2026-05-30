@@ -1,0 +1,27 @@
+{
+  "bundle": "brainframe-skills",
+  "version": "1.0.0",
+  "description": "Portable agent skills any CLI AI can adopt. Each skill lives in its own repo; this manifest bundles them for one-shot install and upgrade.",
+  "owner": "The9thRealm",
+  "skills_dir_default": "~/.claude/skills",
+  "skills": [
+    {
+      "name": "qpulse",
+      "repo": "brainframe-qpulse",
+      "version": "1.0.0",
+      "summary": "Read-only status dashboard: in-progress / queued / blocked / services."
+    },
+    {
+      "name": "handoff",
+      "repo": "brainframe-handoff",
+      "version": "1.0.0",
+      "summary": "Structured CKPT checkpoint so the next session resumes cold."
+    },
+    {
+      "name": "context-compress",
+      "repo": "brainframe-context-compress",
+      "version": "1.0.0",
+      "summary": "Proactively shrink working context before it overflows."
+    }
+  ]
+}
