@@ -2,7 +2,7 @@
   "bundle": "brainframe-skills",
   "version": "1.0.0",
   "description": "Portable agent skills any CLI AI can adopt. Each skill lives in its own repo; this manifest bundles them for one-shot install and upgrade.",
-  "owner": "The9thRealm",
+  "owner": "CjPetersonIX",
   "skills_dir_default": "~/.claude/skills",
   "skills": [
     {

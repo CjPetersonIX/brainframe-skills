@@ -2,7 +2,7 @@
 #
 # BRAINFRAME SKILLS — bundle installer
 #
-#   curl -fsSL https://raw.githubusercontent.com/The9thRealm/brainframe-skills/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/CjPetersonIX/brainframe-skills/main/install.sh | bash
 #
 # Installs every skill listed in manifest.json into your agent's skills directory.
 # Non-interactive, idempotent. Defaults to Claude Code (~/.claude/skills); override with
@@ -10,7 +10,7 @@
 #
 set -euo pipefail
 
-OWNER="The9thRealm"
+OWNER="CjPetersonIX"
 RAW_BASE="https://raw.githubusercontent.com"
 MANIFEST_RAW="$RAW_BASE/$OWNER/brainframe-skills/main/manifest.json"
 SKILLS_DIR="${SKILLS_DIR:-$HOME/.claude/skills}"
