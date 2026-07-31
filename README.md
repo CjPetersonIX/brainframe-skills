@@ -17,19 +17,19 @@ install and package-manager-style upgrade packs.
 ## Install everything (one line)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/The9thRealm/brainframe-skills/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/CjPetersonIX/brainframe-skills/main/install.sh | bash
 ```
 
 Install a subset:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/The9thRealm/brainframe-skills/main/install.sh | bash -s -- qpulse handoff
+curl -fsSL https://raw.githubusercontent.com/CjPetersonIX/brainframe-skills/main/install.sh | bash -s -- qpulse handoff
 ```
 
 Upgrade later (diffs installed versions against the manifest, applies only what changed):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/The9thRealm/brainframe-skills/main/update.sh | bash
+curl -fsSL https://raw.githubusercontent.com/CjPetersonIX/brainframe-skills/main/update.sh | bash
 ```
 
 All install to `~/.claude/skills/` by default — override with `SKILLS_DIR=...`.
@@ -38,9 +38,9 @@ All install to `~/.claude/skills/` by default — override with `SKILLS_DIR=...`
 
 | Skill | Repo | What it does |
 |-------|------|--------------|
-| **qpulse** | [brainframe-qpulse](https://github.com/The9thRealm/brainframe-qpulse) | Read-only status dashboard — in-progress / queued / blocked / services. |
-| **handoff** | [brainframe-handoff](https://github.com/The9thRealm/brainframe-handoff) | Structured `CKPT` checkpoint so the next session resumes cold. |
-| **context-compress** | [brainframe-context-compress](https://github.com/The9thRealm/brainframe-context-compress) | Proactively shrink working context before it overflows. |
+| **qpulse** | [brainframe-qpulse](https://github.com/CjPetersonIX/brainframe-qpulse) | Read-only status dashboard — in-progress / queued / blocked / services. |
+| **handoff** | [brainframe-handoff](https://github.com/CjPetersonIX/brainframe-handoff) | Structured `CKPT` checkpoint so the next session resumes cold. |
+| **context-compress** | [brainframe-context-compress](https://github.com/CjPetersonIX/brainframe-context-compress) | Proactively shrink working context before it overflows. |
 
 Each is independently installable from its own repo; the bundle just installs/updates them
 together. New skills are added to [`manifest.json`](manifest.json) as they ship.

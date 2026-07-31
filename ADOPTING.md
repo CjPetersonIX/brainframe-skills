@@ -12,9 +12,9 @@ so it's written to trigger on natural phrasing ("status", "checkpoint", "compres
 
 ```bash
 # whole bundle
-curl -fsSL https://raw.githubusercontent.com/The9thRealm/brainframe-skills/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/CjPetersonIX/brainframe-skills/main/install.sh | bash
 # or a subset
-curl -fsSL https://raw.githubusercontent.com/The9thRealm/brainframe-skills/main/install.sh | bash -s -- qpulse handoff
+curl -fsSL https://raw.githubusercontent.com/CjPetersonIX/brainframe-skills/main/install.sh | bash -s -- qpulse handoff
 ```
 
 Install into a project-local skills dir instead of the global one:

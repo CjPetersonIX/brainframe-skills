@@ -2,7 +2,7 @@
 #
 # BRAINFRAME SKILLS — upgrade pack
 #
-#   curl -fsSL https://raw.githubusercontent.com/The9thRealm/brainframe-skills/main/update.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/CjPetersonIX/brainframe-skills/main/update.sh | bash
 #
 # Compares the version installed under SKILLS_DIR/<skill>/VERSION against the latest in the
 # bundle manifest and re-installs any skill that is missing or out of date. Like a package
@@ -10,7 +10,7 @@
 #
 set -euo pipefail
 
-OWNER="The9thRealm"
+OWNER="CjPetersonIX"
 RAW_BASE="https://raw.githubusercontent.com"
 MANIFEST_RAW="$RAW_BASE/$OWNER/brainframe-skills/main/manifest.json"
 SKILLS_DIR="${SKILLS_DIR:-$HOME/.claude/skills}"
