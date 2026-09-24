@@ -2,6 +2,16 @@
 
 Portable `SKILL.md` files for any CLI. **Not BrainFrame OS. Not Helix.**
 
+
+## Relation to BrainFrame OS (first glance)
+
+1. **This repo is NOT the fleet OS.** Portable `SKILL.md` bundle only.
+2. **Fleet live truth** = [BrainframeOS README](https://github.com/CjPetersonIX/BrainframeOS/blob/main/README.md) + [`docs/ops/2026-09-23_t786u_FIRST_GLANCE_CURRENT_STATE.md`](https://github.com/CjPetersonIX/BrainframeOS/blob/main/docs/ops/2026-09-23_t786u_FIRST_GLANCE_CURRENT_STATE.md).
+3. **CKPT format:** `<NODE-ID> CKPT <MASTER>.<LOCAL>` · current fleet epoch tip **5291 OPEN** (5292 VOID).
+4. **MasterQ / map / rules:** MasterQ [`comms/Q-PULSE.md`](https://github.com/CjPetersonIX/BrainframeOS/blob/main/comms/Q-PULSE.md) · map [`BRAINFRAME_MAP.md`](https://github.com/CjPetersonIX/BrainframeOS/blob/main/BRAINFRAME_MAP.md) · rules on BrainframeOS README.
+
+---
+
 Brains install from the wrappers:
 
 - [LITE wrapper](https://github.com/CjPetersonIX/Brainframe-litebrain-wrapper) — under 8 GB
