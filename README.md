@@ -1,3 +1,5 @@
+![BRAINFRAME](brainframe-banner-magenta.png)
+
 # BrainFrame skills bundle
 
 Portable `SKILL.md` files for any CLI. **Not BrainFrame OS. Not Helix.**
